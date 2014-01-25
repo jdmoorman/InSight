@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">sound = sd_opening_credits //create list of sounds and for loop through all of the sounds
+                           //can be used to create bars for music
+                           //see draw_volume_slider for arguement details
+
+sound_volume(sound, draw_volume_slider(x, y, 200, 5, 0, 8, c_white, c_gray,0) / 100)
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="menu_text" type="RESOURCE"/>
+  <resource name="obj_player" type="RESOURCE"/>
+  <resource name="obj_objective" type="RESOURCE"/>
+  <resource name="obj_deadly_obstacle" type="RESOURCE"/>
+  <resource name="obj_veil_of_darkness" type="RESOURCE"/>
+  <resource name="obj_roll_credits" type="RESOURCE"/>
+  <resource name="obj_options" type="RESOURCE"/>
+  <resource name="blocks" type="GROUP"/>
+  <resource name="npcs" type="GROUP"/>
+  <resource name="button" type="GROUP"/>
+  <resource name="obj_player_fall_death" type="RESOURCE"/>
+  <resource name="obj_player_reg_death" type="RESOURCE"/>
+  <resource name="obj_title" type="RESOURCE"/>
+</resources>
