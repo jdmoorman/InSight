@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="ALARM" id="1">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if objID='player'
+{
+    instance_create(x,y,phplayer);
+}
+else if objID='portal'
+{
+    instance_create(x,y,phportal);
+}
+else if objID='floor'
+{
+    instance_create(x,y,phfloor);
+}
+else if objID='electricity'
+{
+    instance_create(x,y,phelectricity);
+}
+else if objID='lava'
+{
+    instance_create(x,y,phlava);
+}
+else if objID='buttontoportal'
+{
+    instance_create(x,y,phbuttontoportal);
+}
+else if objID='buttonleft'
+{
+    instance_create(x,y,phbuttonleft);
+}
+else if objID='buttonright'
+{
+    instance_create(x,y,phbuttonright);
+}
+else if objID='grower'
+{
+    instance_create(x,y,phgrower);
+}
+else if objID='shrinker'
+{
+    instance_create(x,y,phshrinker);
+}
+else if objID='spring'
+{
+    instance_create(x,y,phspring);
+}
+else if objID='pressurepad'
+{
+    instance_create(x,y,phpressurepad);
+}
+else if objID='pressurefloor'
+{
+    instance_create(x,y,phpressurefloor);
+}
+else if objID='poison'
+{
+    instance_create(x,y,phpoison);
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

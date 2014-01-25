@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="MOUSE" id="4">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">save_file_name=get_string("Name your level.","MyLevel");
+
+ini_open(save_file_name+".sav");
+
+with phplayer
+{
+    ini_write_string("x="+string(x),"y="+string(y),'player');
+}
+with phportal
+{
+    ini_write_string("x="+string(x),"y="+string(y),'portal');
+}
+with phfloor
+{
+    ini_write_string("x="+string(x),"y="+string(y),'floor');
+}
+with phelectricity
+{
+    ini_write_string("x="+string(x),"y="+string(y),'electricity');
+}
+with phlava
+{
+    ini_write_string("x="+string(x),"y="+string(y),'lava');
+}
+with phbuttontoportal
+{
+    ini_write_string("x="+string(x),"y="+string(y),'buttontoportal');
+}
+with phbuttonleft
+{
+    ini_write_string("x="+string(x),"y="+string(y),'buttonleft');
+}
+with phbuttonright
+{
+    ini_write_string("x="+string(x),"y="+string(y),'buttonright');
+}
+with phgrower
+{
+    ini_write_string("x="+string(x),"y="+string(y),'grower');
+}
+with phshrinker
+{
+    ini_write_string("x="+string(x),"y="+string(y),'shrinker');
+}
+with phspring
+{
+    ini_write_string("x="+string(x),"y="+string(y),'spring');
+}
+with phpressurepad
+{
+    ini_write_string("x="+string(x),"y="+string(y),'pressurepad');
+}
+with phpressurefloor
+{
+    ini_write_string("x="+string(x),"y="+string(y),'pressurefloor');
+}
+with phpoison
+{
+    ini_write_string("x="+string(x),"y="+string(y),'poison');
+}
+
+ini_close();
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

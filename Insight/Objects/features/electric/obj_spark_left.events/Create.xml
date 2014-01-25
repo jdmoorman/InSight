@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">image_speed=0;
+image_index=irandom(5);
+vspeed=(-random(12))*obj_player.image_xscale;
+hspeed=(random(12)-2)*obj_player.image_xscale;
+alarm[0]=random_range(12,18);
+gravity=1*obj_player.image_xscale;
+gravity_direction=270;
+image_xscale=random_range(1,2)*obj_player.image_xscale;
+image_yscale=image_xscale;
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

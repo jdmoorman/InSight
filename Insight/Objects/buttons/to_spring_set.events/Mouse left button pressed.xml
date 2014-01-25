@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="MOUSE" id="4">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">destroy_buttons();
+instance_create(obj_select_scroller.x-250,obj_select_scroller.y,spring_lvl_1);
+instance_create(obj_select_scroller.x-150,obj_select_scroller.y,spring_lvl_2);
+instance_create(obj_select_scroller.x-50,obj_select_scroller.y,spring_lvl_3);
+instance_create(obj_select_scroller.x+50,obj_select_scroller.y,spring_lvl_4);
+instance_create(obj_select_scroller.x+150,obj_select_scroller.y,spring_lvl_5);
+instance_create(obj_select_scroller.x+250,obj_select_scroller.y,spring_lvl_6);
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

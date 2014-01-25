@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="MOUSE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">load_file_name=get_string("Enter the level's name.","MyLevel");
+alarm[0]=90;
+alarm[1]=1;
+position_destroy(0,0);
+ini_open(load_file_name+".sav");
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

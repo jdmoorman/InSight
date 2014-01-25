@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="KEYPRESS" id="13">
+  <actions>
+    <action id="408" library="1">
+      <!--action name: If-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>true</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_if</functionName>
+      <relative>false</relative>
+      <not>true</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">instance_exists(obj_player)</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">with phplayer
+{
+    instance_create(x,y,obj_player)
+}
+instance_deactivate_object(phplayer);
+with ph_base_floor
+{
+    instance_create(x,y,obj_floor)
+}
+instance_deactivate_object(ph_base_floor);
+with phportal
+{
+    instance_create(x,y,obj_portal)
+}
+instance_deactivate_object(phportal);
+with phfloor
+{
+    instance_create(x,y,obj_floor)
+}
+instance_deactivate_object(phfloor);
+with phelectricity
+{
+    instance_create(x,y,obj_killer)
+}
+instance_deactivate_object(phelectricity);
+with phlava
+{
+    instance_create(x,y,obj_kill_no_body)
+}
+instance_deactivate_object(phlava);
+with phbuttontoportal
+{
+    instance_create(x,y,obj_inactive_portal)
+}
+instance_deactivate_object(phbuttontoportal);
+with phbuttonleft
+{
+    instance_create(x,y,obj_button_left)
+}
+instance_deactivate_object(phbuttonleft);
+with phbuttonright
+{
+    instance_create(x,y,obj_button_right)
+}
+instance_deactivate_object(phbuttonright);
+with phgrower
+{
+    instance_create(x,y,obj_grow)
+}
+instance_deactivate_object(phgrower);
+with phshrinker
+{
+    instance_create(x,y,obj_shrink)
+}
+instance_deactivate_object(phshrinker);
+with phspring
+{
+    instance_create(x,y,obj_spring)
+}
+instance_deactivate_object(phspring);
+with phpressurepad
+{
+    instance_create(x,y-16,obj_pressure_pad)
+    instance_create(x,y-16,obj_pressure_base)
+}
+instance_deactivate_object(phpressurepad);
+with phpressurefloor
+{
+    instance_create(x,y,obj_disappearing_floor)
+}
+instance_deactivate_object(phpressurefloor);
+with phpoison
+{
+    instance_create(x,y,obj_poison)
+}
+instance_deactivate_object(phpoison);
+</argument>
+      </arguments>
+    </action>
+    <action id="421" library="1">
+      <!--action name: Else-->
+      <kind>ELSE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments/>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">
+    with obj_dead_player
+    {
+        instance_destroy();
+    }
+    with obj_player
+    {
+        instance_destroy();
+    }
+    with obj_floor
+    {
+        instance_destroy();
+    }
+    with obj_portal
+    {
+        instance_destroy();
+    }
+    with obj_killer
+    {
+        instance_destroy();
+    }
+    with obj_kill_no_body
+    {
+        instance_destroy();
+    }
+    with obj_inactive_portal
+    {
+        instance_destroy();
+    }
+    with obj_button_left
+    {
+        instance_destroy();
+    }
+    with obj_button_right
+    {
+        instance_destroy();
+    }
+    with obj_grow
+    {
+        instance_destroy();
+    }
+    with obj_shrink
+    {
+        instance_destroy();
+    }
+    with obj_spring
+    {
+        instance_destroy();
+    }
+    with obj_pressure_pad
+    {
+        instance_destroy();
+    }
+    with obj_disappearing_floor
+    {
+        instance_destroy();
+    }
+    with obj_poison
+    {
+        instance_destroy();
+    }
+    with obj_dead_player
+    {
+        instance_destroy();
+    }
+    instance_activate_all();
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

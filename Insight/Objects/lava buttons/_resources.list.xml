@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="lava_lvl_1" type="RESOURCE"/>
+  <resource name="lava_lvl_2" type="RESOURCE"/>
+  <resource name="lava_lvl_3" type="RESOURCE"/>
+  <resource name="lava_lvl_4" type="RESOURCE"/>
+  <resource name="lava_lvl_5" type="RESOURCE"/>
+  <resource name="lava_lvl_6" type="RESOURCE"/>
+</resources>

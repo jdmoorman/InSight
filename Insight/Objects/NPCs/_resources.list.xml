@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="obj_NPC1" type="RESOURCE"/>
+  <resource name="obj_NPC2" type="RESOURCE"/>
+  <resource name="obj_NPC3" type="RESOURCE"/>
+  <resource name="obj_base_NPC" type="RESOURCE"/>
+</resources>

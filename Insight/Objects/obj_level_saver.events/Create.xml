@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="CREATE" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">best_possibles[49]=1
+best_possibles[1]=0
+best_possibles[2]=0
+best_possibles[4]=0
+best_possibles[55]=0
+best_possibles[7]=1
+best_possibles[11]=3
+best_possibles[9]=1
+best_possibles[81]=2
+best_possibles[110]=4
+best_possibles[80]=4
+best_possibles[21]=2
+best_possibles[84]=3
+best_possibles[28]=1
+best_possibles[86]=3
+best_possibles[95]=1
+best_possibles[15]=0
+best_possibles[13]=1
+best_possibles[16]=1
+best_possibles[87]=1
+best_possibles[19]=8
+best_possibles[98]=3
+best_possibles[101]=2
+best_possibles[102]=3
+best_possibles[91]=1
+best_possibles[32]=1
+best_possibles[106]=1
+best_possibles[92]=1
+best_possibles[31]=0
+best_possibles[23]=5
+best_possibles[99]=3
+best_possibles[44]=1
+best_possibles[100]=5
+best_possibles[107]=1
+best_possibles[109]=1
+best_possibles[103]=2
+best_possibles[97]=8
+best_possibles[105]=3
+best_possibles[33]=3
+best_possibles[34]=2
+best_possibles[36]=0
+best_possibles[69]=3
+best_possibles[39]=3
+best_possibles[112]=5
+best_possibles[111]=3
+best_possibles[116]=0
+best_possibles[114]=5
+best_possibles[73]=3
+best_possibles[40]=6
+best_possibles[38]=8
+best_possibles[113]=1
+best_possibles[115]=6
+best_possibles[42]=0
+best_possibles[35]=0
+best_possibles[54]=3
+best_possibles[117]=0
+best_possibles[120]=1
+best_possibles[121]=4
+best_possibles[118]=3
+best_possibles[124]=4
+best_possibles[30]=1
+best_possibles[47]=1
+best_possibles[122]=0
+best_possibles[125]=6
+
+ini_open("SaveGame.sav")
+global.highest = ini_read_real("Player","Level",2)
+ini_close()
+
+global.deaths=0;
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

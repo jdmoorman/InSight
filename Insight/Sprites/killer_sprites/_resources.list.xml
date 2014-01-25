@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="spt_killer1" type="RESOURCE"/>
+  <resource name="spt_killer2" type="RESOURCE"/>
+  <resource name="spt_killer3" type="RESOURCE"/>
+  <resource name="spt_killer4" type="RESOURCE"/>
+  <resource name="spt_killer5" type="RESOURCE"/>
+  <resource name="spt_killer6" type="RESOURCE"/>
+</resources>

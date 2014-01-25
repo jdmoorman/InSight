@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="spt_floor" type="RESOURCE"/>
+  <resource name="spt_phportalfloor" type="RESOURCE"/>
+  <resource name="spt_portal" type="RESOURCE"/>
+  <resource name="spt_poison" type="RESOURCE"/>
+  <resource name="spt_killer" type="RESOURCE"/>
+  <resource name="spt_kill_no_body" type="RESOURCE"/>
+  <resource name="spt_wall1" type="RESOURCE"/>
+  <resource name="spt_wall2" type="RESOURCE"/>
+  <resource name="spt_wall3" type="RESOURCE"/>
+  <resource name="spt_NPC1" type="RESOURCE"/>
+  <resource name="spt_NPC2" type="RESOURCE"/>
+  <resource name="spt_NPC3" type="RESOURCE"/>
+</resources>

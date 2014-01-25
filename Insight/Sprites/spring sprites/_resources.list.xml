@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="spt_spring1" type="RESOURCE"/>
+  <resource name="spt_spring2" type="RESOURCE"/>
+  <resource name="spt_spring3" type="RESOURCE"/>
+  <resource name="spt_spring4" type="RESOURCE"/>
+  <resource name="spt_spring5" type="RESOURCE"/>
+  <resource name="spt_spring6" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="obj_deaths_black" type="RESOURCE"/>
+  <resource name="features" type="GROUP"/>
+  <resource name="player" type="GROUP"/>
+  <resource name="room" type="GROUP"/>
+  <resource name="text" type="GROUP"/>
+  <resource name="buttons" type="GROUP"/>
+  <resource name="tutorial buttons" type="GROUP"/>
+  <resource name="killer buttons" type="GROUP"/>
+  <resource name="lava buttons" type="GROUP"/>
+  <resource name="button buttons" type="GROUP"/>
+  <resource name="spring buttons" type="GROUP"/>
+  <resource name="resize buttons" type="GROUP"/>
+  <resource name="poison buttons" type="GROUP"/>
+  <resource name="NPCs" type="GROUP"/>
+  <resource name="obj_can_skip" type="RESOURCE"/>
+  <resource name="obj_level_saver" type="RESOURCE"/>
+  <resource name="obj_special_sensor" type="RESOURCE"/>
+  <resource name="obj_coin_placeholder" type="RESOURCE"/>
+  <resource name="obj_darkness" type="RESOURCE"/>
+</resources>

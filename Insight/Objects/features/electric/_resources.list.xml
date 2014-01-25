@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="obj_spark_down" type="RESOURCE"/>
+  <resource name="obj_spark_up" type="RESOURCE"/>
+  <resource name="obj_spark_right" type="RESOURCE"/>
+  <resource name="obj_spark_left" type="RESOURCE"/>
+</resources>
