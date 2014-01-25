@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-  <resource name="script_death" type="RESOURCE"/>
-  <resource name="destroy_buttons" type="RESOURCE"/>
-  <resource name="touched_portal" type="RESOURCE"/>
-  <resource name="script_sparks_down" type="RESOURCE"/>
-  <resource name="script_sparks_up" type="RESOURCE"/>
-  <resource name="script_sparks_right" type="RESOURCE"/>
-  <resource name="script_sparks_left" type="RESOURCE"/>
-  <resource name="script_delete_under" type="RESOURCE"/>
-  <resource name="script_switch_interaction" type="RESOURCE"/>
+  <resource name="script_switch_interaction_block" type="RESOURCE"/>
+  <resource name="script_switch_interaction_NPC" type="RESOURCE"/>
   <resource name="switch_eyes" type="RESOURCE"/>
   <resource name="AI_movement" type="RESOURCE"/>
   <resource name="script_invisible_floor" type="RESOURCE"/>
+  <resource name="text_scroll" type="RESOURCE"/>
+  <resource name="draw_volume_slider" type="RESOURCE"/>
 </resources>

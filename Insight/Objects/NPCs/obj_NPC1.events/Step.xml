@@ -13,7 +13,7 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="SCRIPT">script_switch_interaction</argument>
+        <argument kind="SCRIPT">script_switch_interaction_NPC</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
@@ -39,6 +39,66 @@
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
         <argument kind="EXPRESSION">0</argument>
+      </arguments>
+    </action>
+    <action id="605" library="1">
+      <!--action name: Comment-->
+      <kind>NORMAL</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>NONE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">image controller</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">
+if hspeed&gt;0
+    image_xscale=1;
+if hspeed&lt;0
+    image_xscale=-1;
+    
+if hspeed!=0
+{
+    if sprite_index=spt_NPC1_walk
+    {
+        image_index+=.2;
+    }
+    else
+    {
+        sprite_index=spt_NPC1_walk
+        image_index=0;
+    }
+}
+else
+{
+    if sprite_index=spt_NPC1_idle
+    {
+        image_index+=.2;
+    }
+    else
+    {
+        sprite_index=spt_NPC1_idle
+        image_index=0;
+    }
+}
+</argument>
       </arguments>
     </action>
   </actions>

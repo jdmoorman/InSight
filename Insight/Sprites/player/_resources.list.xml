@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="spt_player_left" type="RESOURCE"/>
-  <resource name="spt_player_right" type="RESOURCE"/>
-  <resource name="spt_player_front" type="RESOURCE"/>
-  <resource name="spt_dead_player" type="RESOURCE"/>
-  <resource name="spt_death01" type="RESOURCE"/>
-</resources>

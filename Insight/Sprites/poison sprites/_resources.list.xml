@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="spt_poison1" type="RESOURCE"/>
-  <resource name="spt_poison2" type="RESOURCE"/>
-  <resource name="spt_poison3" type="RESOURCE"/>
-  <resource name="spt_poison4" type="RESOURCE"/>
-  <resource name="spt_poison5" type="RESOURCE"/>
-  <resource name="spt_poison6" type="RESOURCE"/>
-</resources>

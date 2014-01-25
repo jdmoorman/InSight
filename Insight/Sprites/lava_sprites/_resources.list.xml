@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="spt_lava1" type="RESOURCE"/>
-  <resource name="spt_lava2" type="RESOURCE"/>
-  <resource name="spt_lava3" type="RESOURCE"/>
-  <resource name="spt_lava4" type="RESOURCE"/>
-  <resource name="spt_lava5" type="RESOURCE"/>
-  <resource name="spt_lava6" type="RESOURCE"/>
-</resources>

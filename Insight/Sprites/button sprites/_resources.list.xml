@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="spt_button1" type="RESOURCE"/>
-  <resource name="spt_button2" type="RESOURCE"/>
-  <resource name="spt_button3" type="RESOURCE"/>
-  <resource name="spt_button4" type="RESOURCE"/>
-  <resource name="spt_button5" type="RESOURCE"/>
-  <resource name="spt_button6" type="RESOURCE"/>
-</resources>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<resources>
-  <resource name="pressure" type="GROUP"/>
-  <resource name="Poison" type="GROUP"/>
-  <resource name="electric" type="GROUP"/>
-  <resource name="editor tiles" type="GROUP"/>
-</resources>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<object id="171">
-  <sprite>spt_NPC3</sprite>
+<object id="4">
+  <sprite>spt_npc_invert</sprite>
   <solid>false</solid>
   <visible>true</visible>
-  <depth>0</depth>
+  <depth>-8</depth>
   <persistent>false</persistent>
   <parent>obj_base_NPC</parent>
   <mask/>

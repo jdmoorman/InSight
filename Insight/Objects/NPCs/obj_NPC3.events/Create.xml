@@ -47,9 +47,11 @@
       <arguments>
         <argument kind="STRING">fall_speed=0;
 max_fall_speed=30;
-move_speed=7;
+move_speed=3;
 jump_speed=-16;
 kill_fall_speed=25;
+image_speed=0;
+deadly=false;
 </argument>
       </arguments>
     </action>

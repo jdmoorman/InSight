@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-  <resource name="player" type="GROUP"/>
-  <resource name="room" type="GROUP"/>
-  <resource name="features" type="GROUP"/>
-  <resource name="other" type="GROUP"/>
-  <resource name="spt_grow" type="RESOURCE"/>
-  <resource name="spt_shrink" type="RESOURCE"/>
-  <resource name="start game" type="RESOURCE"/>
-  <resource name="select_icon" type="RESOURCE"/>
-  <resource name="spt_more" type="RESOURCE"/>
-  <resource name="spt_back" type="RESOURCE"/>
-  <resource name="scroller" type="RESOURCE"/>
-  <resource name="spt_locked" type="RESOURCE"/>
-  <resource name="tutorial sprites" type="GROUP"/>
-  <resource name="killer_sprites" type="GROUP"/>
-  <resource name="lava_sprites" type="GROUP"/>
-  <resource name="button sprites" type="GROUP"/>
-  <resource name="spring sprites" type="GROUP"/>
-  <resource name="resize sprites" type="GROUP"/>
-  <resource name="poison sprites" type="GROUP"/>
-  <resource name="spt_creator" type="RESOURCE"/>
-  <resource name="spt_save_icon" type="RESOURCE"/>
-  <resource name="spt_load_icon" type="RESOURCE"/>
-  <resource name="special sensor sprite" type="RESOURCE"/>
-  <resource name="spt_coin_placeholder" type="RESOURCE"/>
+  <resource name="spt_block" type="RESOURCE"/>
+  <resource name="spt_deadly_obstacle" type="RESOURCE"/>
+  <resource name="spt_npc_reg" type="RESOURCE"/>
+  <resource name="spt_npc_const" type="RESOURCE"/>
+  <resource name="spt_npc_invert" type="RESOURCE"/>
+  <resource name="spt_player_left" type="RESOURCE"/>
+  <resource name="spt_player_front" type="RESOURCE"/>
+  <resource name="spt_player_right" type="RESOURCE"/>
+  <resource name="spt_objective" type="RESOURCE"/>
+  <resource name="sprite11" type="RESOURCE"/>
+  <resource name="spt_player_walk_shut" type="RESOURCE"/>
+  <resource name="spt_player_walk_open" type="RESOURCE"/>
+  <resource name="spt_player_jump_shut" type="RESOURCE"/>
+  <resource name="spt_player_jump_open" type="RESOURCE"/>
+  <resource name="spt_player_idle_shut" type="RESOURCE"/>
+  <resource name="spt_player_idle_open" type="RESOURCE"/>
+  <resource name="spt_player_fall_panic" type="RESOURCE"/>
+  <resource name="spt_player_fall_death" type="RESOURCE"/>
+  <resource name="spt_player_reg_death" type="RESOURCE"/>
+  <resource name="spt_NPC1_idle" type="RESOURCE"/>
+  <resource name="spt_NPC1_walk" type="RESOURCE"/>
+  <resource name="Button" type="GROUP"/>
+  <resource name="menu_text_volume" type="RESOURCE"/>
 </resources>

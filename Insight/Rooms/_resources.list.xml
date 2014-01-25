@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-  <resource name="intro" type="RESOURCE"/>
-  <resource name="room165" type="RESOURCE"/>
+  <resource name="title" type="RESOURCE"/>
+  <resource name="menu" type="RESOURCE"/>
+  <resource name="opening_credits" type="RESOURCE"/>
+  <resource name="room_test" type="RESOURCE"/>
 </resources>

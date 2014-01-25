@@ -45,13 +45,13 @@
       <not>false</not>
       <appliesTo>.self</appliesTo>
       <arguments>
-        <argument kind="STRING">xspawn=x;  // remove final build
-yspawn=y;  // remove final build
-fall_speed=0;
+        <argument kind="STRING">fall_speed=0;
 max_fall_speed=30;
-move_speed=7;
+move_speed=3;
 jump_speed=-16;
 kill_fall_speed=25;
+image_speed=0;
+deadly=false;
 </argument>
       </arguments>
     </action>
